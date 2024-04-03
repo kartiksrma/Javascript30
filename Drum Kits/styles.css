@@ -10,34 +10,6 @@ h1 {
     text-shadow: 3px 0 #fcf046;
 }
 
-.w {
-    background-image: url("images/w.png");
-}
-
-.a {
-    background-image: url("images/a.png");
-}
-
-.s {
-    background-image: url("images/s.png");
-}
-
-.d {
-    background-image: url("images/d.png");
-}
-
-.j {
-    background-image: url("images/j.png");
-}
-
-.k {
-    background-image: url("images/k.png");
-}
-
-.l {
-    background-image: url("images/l.png");
-}
-
 .all {
     margin: 10% auto;
 }
@@ -62,6 +34,6 @@ h1 {
     width: 150px;
     height: 150px;
     text-align: center;
-    padding-top: 100px;
-    background-color: white;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0);
 }
