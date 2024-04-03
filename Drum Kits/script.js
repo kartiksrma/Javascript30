@@ -1,15 +1,5 @@
 var numberOfButtons = document.querySelectorAll(".button").length;
 
-for (var j = 0; j < numberOfButtons; j++) {
-  document
-    .querySelectorAll(".button")
-    [j].addEventListener("click", function () {
-      var buttonStyle = this.innerHTML;
-      sound(buttonStyle);
-      animation(buttonStyle);
-    });
-}
-
 document.addEventListener("keypress", function (event) {
   sound(event.key);
   animation(event.key);
